@@ -1,7 +1,8 @@
-%chk=C:\Users\Danny\Documents\Gaussian\dielsalder\da_meta_endo_b3lyp_d3bj_midix_freeze.chk
-# hf/3-21g geom=connectivity
+%nprocshared=4
+%mem=3GB
+#p b3lyp empiricaldispersion=gd3bj midix scrf=(pcm,solvent=1,4-dioxane) opt=modredundant freq=noraman
 
-Title Card Required
+Diels Alder
 
 0 1
  C                 -5.77356166    2.10935393   -1.51666154
@@ -29,28 +30,5 @@ Title Card Required
  H                 -2.82022095    0.67674122   -1.07620624
  O                 -1.01148290    2.88283280   -1.61859962
 
- 1 2 1.0 3 2.0 10 1.0
- 2
- 3 4 1.0 5 1.0
- 4
- 5 6 1.0 7 2.0
- 6
- 7 8 1.0 9 1.0
- 8
- 9
- 10 11 1.0 12 1.0
- 11
- 12 13 2.0 14 1.0
- 13
- 14 15 1.0
- 15
- 16 17 1.0 18 1.0 19 2.0
- 17
- 18
- 19 20 1.0 21 1.0
- 20
- 21 22 1.0 24 2.0
- 22 23 1.0
- 23
- 24
+
 

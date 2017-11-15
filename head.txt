@@ -1,0 +1,5 @@
+%nprocshared=4
+%mem=3GB
+#p b3lyp empiricaldispersion=gd3bj midix scrf=(pcm,solvent=1,4-dioxane) opt=modredundant freq=noraman
+
+Diels Alder
